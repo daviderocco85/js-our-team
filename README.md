@@ -2,6 +2,11 @@
 
 A simple DOM‑manipulation project based on an array of team member objects. The page dynamically renders one card per member, supports responsive wrapping, and includes a form that lets users add new members and display them in real time.
 
+# Demo Live
+
+[🌐  **Click here for demo**](https://daviderocco85.github.io/js-our-team/)
+
+
 # Target
 
 Given an array of objects representing a company team, create a dedicated page that displays a card for each team member.
