@@ -46,21 +46,21 @@
                     <div class="mb-3">
                         <label for="memberName" class="form-label fw-semibold">Nome</label>
                         <input type="text" class="form-control" id="memberName" placeholder="Inserisci il tuo nome"
-                            pattern="[A-Za-zÀ-ÿ\s']+" title="Inserisci solo lettere" required>
+                            pattern="[A-Za-zÀ-ž\s']+" title="Inserisci solo lettere" required>
                     </div>
 
                     <!-- ROLE -->
                     <div class="mb-3">
                         <label for="memberRole" class="form-label fw-semibold">Ruolo</label>
                         <input type="text" class="form-control" id="memberRole" placeholder="Inserisci il tuo ruolo"
-                            pattern="[A-Za-zÀ-ÿ\s'-]+" title="Inserisci solo lettere" required>
+                            pattern="[A-Za-zàèéìíòóùúÀÈÉÌÍÒÓÙÚ\s'\-]+" title="Inserisci solo lettere" required>
                     </div>
 
                     <!-- EMAIL -->
                     <div class="mb-3">
                         <label for="memberEmail" class="form-label fw-semibold">Email</label>
                         <input type="email" class="form-control" id="memberEmail" placeholder="nome@team.com"
-                            pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}$"
+                            pattern="[A-Za-z0-9._%+]+@[A-Za-z0-9.]+\.[A-Za-z]{2,}"
                             title="Inserisci un indirizzo email valido" required>
                     </div>
 
